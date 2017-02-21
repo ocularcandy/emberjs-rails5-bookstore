@@ -1,7 +1,8 @@
 body {
-  font-family: Courier, monospace;
-  font-size: 1.2em;
+  font-family: "Open Sans","Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-size: 1.5em;
   margin-left: 2em;
+  padding-top: 50px;
 }
 
 ul {
@@ -22,6 +23,7 @@ ul div {
 ul li {
   padding: 1em;
   border: 6px solid #AFAFAF;
+  border-radius: 10px;
   background: #E9E9E9;
   height: 90%;
   cursor: pointer;
@@ -37,16 +39,16 @@ a.author {
   color: #111;
 }
 
-.modal {
-  width: 20em;
-  height: 15em;
+.my-modal {
+  width: 25em;
+  height: 20em;
   position: fixed;
   top: 50%;
   left: 50%;
   margin-top: -7.5em;
   margin-left: -10em;
   padding: 1em;
-  background-color: #f1c40f;
+  background-color: #FFFF99;
   border-radius: 5px;
   text-align: center;
   z-index: 11; /* 1px higher than the overlay layer */
