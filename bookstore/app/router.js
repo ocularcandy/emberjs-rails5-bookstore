@@ -7,9 +7,10 @@ const Router = Ember.Router.extend({
 });
 
 Router.map(function() {
-  this.route('books');
-  this.route('authors');
-  this.route('publishing-houses');
+  // use path option to tell Router that we want to list books at '/'
+  // and have an author page at '/author/:author_id'
+  this.route('books', { path: '/' });
+  this.route('author', { path: '/author/:author_id' });
 });
 
 export default Router;
